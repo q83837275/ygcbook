@@ -125,7 +125,7 @@
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
         
 	
-      <Context docBase="C:\Users\q9930\OneDrive\デスクトップ\实战source管理\NW0030-用户管理实战项目源码\shopping_workspace - 1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\q9930\OneDrive\デスクトップ\实战source管理\NW0030-用户管理实战项目源码\shopping_workspace - 1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\YGCbook" path="/YGCbook" reloadable="true" source="org.eclipse.jst.jee.server:YGCbook"/></Host>
+      <Context docBase="C:\ygcbook\ygcbook\shopping_workspace - 1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\ygcbook\ygcbook\shopping_workspace - 1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\YGCbook" path="/YGCbook" reloadable="true" source="org.eclipse.jst.jee.server:YGCbook"/></Host>
     </Engine>
   </Service>
 </Server>

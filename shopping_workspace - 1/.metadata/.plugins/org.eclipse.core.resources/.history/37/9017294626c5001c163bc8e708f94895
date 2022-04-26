@@ -1,0 +1,49 @@
+package co.jp.netwisdom.entity;
+
+import java.util.Date;
+
+
+public class UserInfo {
+	private String username;
+	private String password;
+	private String sex;
+	private String major;
+	private String intro;
+	private String delFLg;
+	
+	public UserInfo() {
+		super();
+	}
+	public UserInfo(String bookName, int booktypeId, String pbName,
+			String author, String context, String smallImg, String bigImg,
+			float price, Date pbdate, int bookStates, float ygcprice) {
+		super();
+		this.bookName = bookName;
+		this.booktypeId = booktypeId;
+		this.pbName = pbName;
+		this.author = author;
+		this.context = context;
+		this.smallImg = smallImg;
+		this.bigImg = bigImg;
+		this.price = price;
+		this.pbdate = pbdate;
+		this.bookStates = bookStates;
+		this.ygcprice = ygcprice;
+	}
+	public UserInfo(String bookName, int booktypeId, String pbName,
+			String author, String context, String smallImg, String bigImg,
+			float price, Date pbdate, float ygcprice) {
+		super();
+		this.bookName = bookName;
+		this.booktypeId = booktypeId;
+		this.pbName = pbName;
+		this.author = author;
+		this.context = context;
+		this.smallImg = smallImg;
+		this.bigImg = bigImg;
+		this.price = price;
+		this.pbdate = pbdate;
+		this.ygcprice = ygcprice;
+	}
+}
+	
