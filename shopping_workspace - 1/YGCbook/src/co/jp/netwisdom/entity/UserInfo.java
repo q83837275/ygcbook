@@ -1,7 +1,7 @@
 package co.jp.netwisdom.entity;
 
 
-public class UserInfo {
+public class Userinfo {
 	private String username;
 	private String password;
 	private String sex;
@@ -37,7 +37,7 @@ public class UserInfo {
 	public void setIntro(String intro) {
 		this.intro = intro;
 	}
-	public UserInfo(String username, String password, String sex, String major, String intro) {
+	public Userinfo(String username, String password, String sex, String major, String intro) {
 		super();
 		this.username = username;
 		this.password = password;

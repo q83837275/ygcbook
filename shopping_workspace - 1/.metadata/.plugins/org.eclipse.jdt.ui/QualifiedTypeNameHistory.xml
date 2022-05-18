@@ -2,4 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="co.jp.netwisdom.dao.UserinfoDAO"/>
 <fullyQualifiedTypeName name="co.jp.netwisdom.entity.UserInfo"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="co.jp.netwisdom.entity.Userinfo"/>
+<fullyQualifiedTypeName name="cn.key.mapping.UserinfoMapping"/>
 </qualifiedTypeNameHistroy>

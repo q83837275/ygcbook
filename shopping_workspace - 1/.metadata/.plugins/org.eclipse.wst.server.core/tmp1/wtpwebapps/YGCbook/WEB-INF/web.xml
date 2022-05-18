@@ -607,6 +607,15 @@
     <url-pattern>/userRegister</url-pattern>
   </servlet-mapping>
   
+   <servlet>
+    <servlet-name>userSearchServlet</servlet-name>
+    <servlet-class>co.jp.netwisdom.sevlet.UserSearchServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>userSearchServlet</servlet-name>
+    <url-pattern>/userSearch</url-pattern>
+  </servlet-mapping>
   
   
   
