@@ -18,13 +18,16 @@ public class UserRigsterServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		
+		// 从前台取值
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		String sex = request.getParameter("sex");
 		String major = request.getParameter("major");
 		String intro = request.getParameter("intro");
-
+		// 从前台取值 区别于上方的1对1的key-value
 		String[] hobbyArray = request.getParameterValues("hobby");
+		// 创建一个集合 吧hobbyarray转换成hobbylist
 		List hobbyList = new ArrayList();
 		for(int i = 0;i< hobbyArray.length;i++){
 			Hobby hobbyObject = new Hobby();
@@ -52,6 +55,7 @@ public class UserRigsterServlet extends HttpServlet {
 			System.out.println("用户爱好表更新失败");
 			successFlag = false;
 		};
+		// 页面跳转
 		if(successFlag){
 			request.getRequestDispatcher("/userRegSuccess.jsp").forward(request, response);
 		}else{
@@ -63,6 +67,7 @@ public class UserRigsterServlet extends HttpServlet {
 	
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+				this.doGet(request, response);
 
 	}
 

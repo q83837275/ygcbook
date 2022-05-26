@@ -7,7 +7,7 @@
 
 
 <body>
-	<form action="userRegister">
+	<form action="userRegister" method="get">
 		姓名:<input id="username" name="username"><br>
 		密码:<input type="password" id="password" name="password"><br>
 		性别:<input type="radio" name="sex" checked  id="sex1" value="0">男<input type="radio"  name="sex" id="sex2"  value="1">女<br>
